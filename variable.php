@@ -35,19 +35,18 @@
 
 
 
-$name = "Earth";
-$age = 99999;
-$float = 2.34;
-$null = null;
+// $name = "Earth";
+// $age = 99999;
+// $float = 2.34;
+// $null = null;
 
-var_dump($name);
-var_dump($age);
-var_dump($float);
-var_dump($null);
+// var_dump($name);
+// var_dump($age);
+// var_dump($float);
+// var_dump($null);
 
 
 /* 
-
 Integer Int
 double/float
 Boolean 
@@ -55,9 +54,15 @@ Null
 String
 Array
 Object
-
-
-
-
+Resource 
 */
+
+
+$name = "Earth";
+
+echo "We're living on {$name}";
+
+echo "\n";
+
+printf("We're living on %s", $name);
 
