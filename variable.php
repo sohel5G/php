@@ -1,5 +1,14 @@
 <?php
 
-$varName = 'var value';
+$name  = 'Bangladesh';
+$age = '55 Years';
 
-echo $varName;
+$word = 'age' ;
+
+// echo $word;
+// echo $$word; 
+
+
+
+
+
