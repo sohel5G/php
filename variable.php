@@ -59,10 +59,14 @@ Resource
 
 
 $name = "Earth";
+$city = "Dhaka";
 
 echo "We're living on {$name}";
 
 echo "\n";
 
-printf("We're living on %s", $name);
+printf("We're living on %s city is %s", $name, $city);
+echo "\n";
+printf("We're living on %s city is %s", strtoupper($name), strtoupper($city));
+
 
