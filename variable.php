@@ -78,9 +78,24 @@ Resource
 
 $fname = "Sohel";
 $lname = "Rana";
-
 printf('my name is %2$s %1$s' , $lname, $fname);
 
+echo "\n";
+echo "\n";
+
+$number = 35.654234; 
+printf("%.2f", $number);
+
+echo "\n";
+echo "\n";
+
+
+$fname = "Abdullah";
+$mname = "Al";
+$lname = "Araf";
+
+$varName = sprintf("My son name is %s %s %s", $fname, $mname, $lname);
+echo $varName;
 
 
 
