@@ -96,7 +96,8 @@ $lname = "Araf";
 
 $varName = sprintf("My son name is %s %s %s", $fname, $mname, $lname);
 echo $varName;
-
+echo "\n";
+echo strtoupper($varName);
 
 
 
