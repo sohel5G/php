@@ -61,15 +61,27 @@ Resource
 */
 
 
-$name = "Earth";
-$city = "Dhaka";
+// $name = "Earth";
+// $city = "Dhaka";
 
-echo "We're living on {$name}";
+// echo "We're living on {$name}";
 
-echo "\n";
+// echo "\n";
 
-printf("We're living on %s city is %s", $name, $city);
-echo "\n";
-printf("We're living on %s city is %s", strtoupper($name), strtoupper($city));
+// printf("We're living on %s city is %s", $name, $city);
+// echo "\n";
+// printf("We're living on %s city is %s", strtoupper($name), strtoupper($city));
+
+
+
+// Variable swaping 
+
+$fname = "Sohel";
+$lname = "Rana";
+
+printf('my name is %2$s %1$s' , $lname, $fname);
+
+
+
 
 
