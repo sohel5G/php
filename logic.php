@@ -13,27 +13,44 @@
 // echo "\n";
 
 
-$n = 10;
 
-if($n % 2 === 0){
-    echo "This is even number";
-}else{
-    echo "This is odd number";
+
+
+
+
+
+// $n = 10;
+
+// if($n % 2 === 0){
+//     echo "This is even number";
+// }else{
+//     echo "This is odd number";
+// }
+
+
+// echo "\n";
+// echo PHP_EOL;
+
+// $x = 16;
+
+// if ($x % 2 == 0):
+//     echo "Even number";
+//     echo PHP_EOL;
+//     echo "Some text here";
+// else: 
+//     echo "Odd number";
+//     echo PHP_EOL;
+//     echo "Some text here ++";
+// endif;
+
+// echo "\n";
+
+
+
+for ($i = 1 ; $i < 10 ; $i += 2 ){
+    echo $i;
+    echo PHP_EOL;
 }
-
-
-echo "\n";
-echo PHP_EOL;
-
-if ($n % 2 == 0):
-    echo "Even number";
-    echo PHP_EOL;
-    echo "Some text here";
-else: 
-    echo "Odd number";
-    echo PHP_EOL;
-    echo "Some text here ++";
-endif;
 
 
 
