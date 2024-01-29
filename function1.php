@@ -10,15 +10,24 @@
 // echo isEven(12);
 
 
-$y = "23";
-
-echo gettype($y);
-
+// $y = "23";
+// echo gettype($y);
 
 
 
+function unlimitedParameter(int ...$i):int{
 
+    $result = 0;
+    for($x = 0; $x < count($i); $x++){
+        $result += $i[$x];
+    }
 
+    return $result;
 
+}
+
+echo unlimitedParameter(23, 12, 43, 56, 87);
 
 ?>
+
+
