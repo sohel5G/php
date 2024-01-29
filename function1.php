@@ -15,7 +15,7 @@
 
 
 
-function unlimitedParameter(int ...$i):int{
+function sum(int ...$i):int{
 
     $result = 0;
     for($x = 0; $x < count($i); $x++){
@@ -26,7 +26,21 @@ function unlimitedParameter(int ...$i):int{
 
 }
 
-echo unlimitedParameter(23, 12, 43, 56, 87);
+
+echo sum(23, 12, 43, 56, 87, 12);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
 
