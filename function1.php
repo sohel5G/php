@@ -7,7 +7,7 @@ function isEven($x){
 
 }
 
-echo isEven(12);
+// echo isEven(12);
 
 
 
