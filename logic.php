@@ -46,13 +46,18 @@
 // echo "\n";
 
 
+// for ($i = 1 ; $i < 10 ; $i += 2 ){
+//     echo $i;
+//     echo PHP_EOL;
+// }
 
-for ($i = 1 ; $i < 10 ; $i += 2 ){
-    echo $i;
-    echo PHP_EOL;
-}
+
+$varName = "Hello World"; 
 
 
+$varName2 = $varName ?? "Null";
+
+echo $varName2;
 
 
 
