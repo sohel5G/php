@@ -1,14 +1,18 @@
 <?php 
 
 
-function isEven($x){
+// function isEven($x){
 
-    return $x % 2 == 0 ? "{$x} is a even number" : "{$x} is a odd number";
+//     return $x % 2 == 0 ? "{$x} is a even number" : "{$x} is a odd number";
 
-}
+// }
 
 // echo isEven(12);
 
+
+$y = "23";
+
+echo gettype($y);
 
 
 
